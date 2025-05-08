@@ -1,0 +1,68 @@
+body{
+    background-color: #0e0e0e;
+    margin-bottom: 10px;
+    border-block-color: #0c101c;
+}
+.vscode_navbar{
+    background-color: #0e0e0e;
+    border-bottom: 1px solid #0c101c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vscode{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 950;
+    color : #BDD1E5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.vscode_nav_right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.vscode_navbar_opt{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 250px;
+}
+.vscode_navbar_option{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 6px;
+    margin-left: 20px;
+}
+.vscode_navbar_option a{
+    text-decoration: none;
+    color: #99A0B1;
+}
+.topLink{
+    background-color: white;
+    cursor: pointer;
+    color: rgb(183, 178, 178);
+}
+.vscode_navbar_option input::placeholder{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.vscode_navbar_option button{
+    background-color: #0178D4;
+    color: #dde2ea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
