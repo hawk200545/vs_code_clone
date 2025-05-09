@@ -10,7 +10,7 @@
         <div class = "topbar" style="background-color: #0e0e0e ;"> <!-- Main container -->
             <div class ="vscode_navbar"> <!-- Top bar -->
                 <div class="vscode">
-                <img src = "assets/vscode.png" width="40px" alt = "Visual Studio Code">
+                <img src = "assets/vscode.png" width="25px" alt = "Visual Studio Code">
                     <span>Visual Studio Code</span>
                 </div>
                 <div class = "vscode_nav_right"> <!-- Right side of the top bar -->
@@ -38,10 +38,15 @@
                         </span>
                     </div>
                     <div class = "top_right" > <!-- Search and download -->
+                        <div class = "vscode_theme_icon">
+                            <button>
+                            <img src = "https://code.visualstudio.com/assets/icons/theme-light.svg" width="20px" alt = "Theme">
+                            </button>
+                        </div>
                         <div class ="nav_search">
                             <input type="text" placeholder="Search Docs" style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
                         </div>
-                        <div class = "vscode_navbar_option">
+                        <div class = "download_button_top_right">
                             <button>Download</button>
                         </div>
                     </div>
@@ -49,3 +54,66 @@
             </div> 
         </div>
     </header>
+
+    <body>
+        <div class ="main_container">
+            <div class = "text_and_downloads">
+                <div class ="hero_text">
+                   <div>Your Code editor.</div>
+                   <div>Refined with AI.</div>
+                </div>
+                <div class = "download_content">
+                    <div class = "download_button">
+                        <div>
+                        <button>
+                            <div class = "download_button_icon_and_text">
+                                <div>
+                                <img src = "https://code.visualstudio.com/assets/icons/download.svg" width="20px">
+                                </div>
+                                <div>
+                                    .deb
+                                </div>  
+                            </div>
+                            <div class = "download_button_text">
+                                <span>Debian, Ubuntu...</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <div class = "download_button_icon_and_text">
+                                <div>
+                                <img src = "https://code.visualstudio.com/assets/icons/download.svg" width="20px">
+                                </div>
+                                <div>
+                                    .rpm
+                                </div>  
+                            </div>
+                            <div class = "download_button_text">
+                                <span>Red Hat,Fedora...</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class = "alternative_download_button">
+                        <button>
+                            <div >
+                                <span>Try agent mode</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            <br/>
+            <br/>
+            </div>
+                <div class ="hero_container">
+                    <div class="hero_video" style="position: relative;">
+                        <div class="hero_video_container" style="position: relative; z-index: 1; ">
+                            <video autoplay muted loop playsinline width="1000px" style="position: relative; z-index: 2; border-radius: 15px;">
+                                <source src="assets/hero-dark-lg.webm" type="video/mp4">
+                            </video>
+                        </div>
+                        <img src="assets/hero-background.webp" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; object-fit: cover; border-radius: 15px;">
+                    </div>
+                </div>
+        </div>
+    </body>

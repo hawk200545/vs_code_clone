@@ -10,34 +10,36 @@ body{
 .vscode_navbar{
     background-color: #0e0e0e;
     border-bottom: 1px solid #0c101c;
-    padding-left : 120px;
-    padding-right : 120px;
+    padding-top: 8px;
+    padding-left : 150px;
+    padding-right : 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .vscode{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 20px;
-    font-weight: 950;
+    font-weight: 850;
     color : #BDD1E5;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 .vscode_nav_right{
     display: flex;
     gap: 10px;
+    align-items: center;
     justify-content: space-between;
 }
 .vscode_navbar_opt{
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-right: 175px;
+    margin-right: 110px;
 }
 .vscode_navbar_option{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 16px;
     font-weight: 550;
     display: flex;
@@ -46,7 +48,7 @@ body{
 }
 .vscode_navbar_option a{
     text-decoration: none;
-    color: #99A0B1;
+    color: #C1CEE2;
 }
 .topLink{
     background-color: white;
@@ -55,15 +57,15 @@ body{
 }
 .top_right{
     display: flex;
-    gap : 1px; 
+    gap : 10px; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0px 10px;
 }
 .nav_search input {
     padding: 6px 20px 6px 32px;
-    border-radius: 6px;
-    border: 1px solid #444;
+    border-radius: 0.5px;
+    border: 0.5px solid #b17171;
     background-color: #1e1e1e;
     color: white;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -76,13 +78,13 @@ body{
     color: #999;
 }
 
-.vscode_navbar_option button {
+.download_button_top_right button {
     background-color: #0178D4;
     color: #dde2ea;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding: 6px 20px;
+    padding: 6px 18px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -93,7 +95,6 @@ body{
     background-color: #0161aa;
 }
 
-/* Add this to position the icon inside the input */
 .vscode_navbar_option {
     position: relative;
 }
@@ -106,4 +107,102 @@ body{
     color: #999;
     font-size: 14px;
     pointer-events: none;
+}
+.vscode_theme_icon button{
+    background-color: #0e0e0e;
+    color: #C1CEE2;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 550;
+}
+.vscode_theme_icon button:hover{
+    background-color: #9ba3b4;
+    opacity: 0.1;
+}
+.download_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-left : 525px;
+    padding-right : 625px;
+    
+
+}
+.download_button button{
+    align-items: center;
+    background-color: #0078D4;
+    color :#C1CEE2;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size : 14px;
+    font-weight: 600;
+    border : none;
+    border-radius: 5px;
+    padding: 6px 18px;
+    margin-top: 10px;
+}
+.download_button button:hover{
+    background-color: #0178D4;
+}
+.download_button_text{
+    margin-bottom: 5px;
+    padding-top: 3px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size : 12px;
+    font-weight: 600;
+    color: #fdfdfd;
+}
+.download_button_icon_and_text{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #fdfdfd;
+}
+.hero_text{
+    margin-top: 100px;
+    color : #C3D0E5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size : 70px;
+    font-weight: 700;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+.alternative_download_button button{
+    align-items: center;
+    background-color: #25292e;
+    color :#C1CEE2;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size : 16px;
+    font-weight: 600;
+    border : 1px solid rgb(255 255 255 / 30%);
+    border-radius: 5px;
+    padding: 25px 12px;
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.alternative_download_button button:hover{
+    background-color: #495157;
+}
+.hero_video_container{
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    position: relative;
+    width: 100%;
+    height : 100%;
+    border-radius: 5px;
+}
+.hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
